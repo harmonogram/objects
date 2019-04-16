@@ -47,22 +47,33 @@ Przyklady uzycia:
 
 Przyklady zapisu dokumentacji:
 
-      project: "Logo"
-      description: "How to create logo"
-      tags: Logo Creating, logo
+      project:
+      + name: "projekt i wykonanie graficznego logotypu"
+      + description: "How to create logo"
+      + tags: Logo Creating, logo
 
       resources:      
       + positions: 
-            +     "Projektant"
-            +     "Grafik"
+            + "Projektant"
+            + "Grafik"
+            + "Konsultant"
+            + "Ksiegowa"
       + "money": 200EUR
       + "estimation": 12days    
       
-
-      // our main function
-      func main() {
-          router := mux.NewRouter()
-          log.Fatal(http.ListenAndServe(":8000", router))
+      Zmienne:
+            Money
+                  + zaliczka - kwota na poczatku zlecenia
+                  + reszta - suma pozostala
+                  + dodatkowe - koszty 
+            Dokumentacja
+                  + specyfikacja
+                  + przedwykonaniem
+                  + powykonawcza
+      
+      // 1 Etap
+      Projektant.wykonaj(dokumentacja.specyfikacja, Money.zaliczka) {
+            dokumentacja // wszystkie informacje dotyczace rozpoczecia i zakonczenia pracy
       }
       
 + APIcra.com - create scripts to create described environment, DevOpsTool
