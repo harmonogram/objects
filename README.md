@@ -18,8 +18,14 @@ CakePHP
 ## NodeJS
 API SWAGGER CRUD nodejs mysql
 
-### Express generator
+### Express App
+Learn Rest API using Express.js and MySQL DB
+- easy
+https://www.codementor.io/julieisip/learn-rest-api-using-express-js-and-mysql-db-ldflyx8g2
+
+
 Building REST APIs with MySQL and Node.js
+- generator
 https://expressjs.com/en/starter/generator.html
 
 Example
