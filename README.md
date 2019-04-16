@@ -2,13 +2,18 @@
 Standard objects for API, View, Controller. API Definition files can be used to create stubs in popular languages, like Java, Scala, and Ruby, with just a few clicks.
 
 ## Dev Tools 
+
++ Marketing produktu/uslugi
++ Kod oproduktu uslugi
 + vodAPI.com - describe environment, definition of environment
 
       + jakie technologie beda uzyte w projekcie ?
       + jakie metody zarzadzania?
-      + opis stanowiska pracy dla kazdego uczestnika projektu, jakie opgrogramowanie i sprzet jest potrzebne
+      + opis stanowiska pracy dla kazdego uczestnika projektu, 
+            jakie opgrogramowanie i sprzet jest potrzebne
             + gitlab / github / bitbucket ?             
       + jakie metody komunikacji?
+            + dla dev, customers, testers, ...
       + jakie stanowiska
       + jakie etapy w realizacji zlecenia
       
@@ -28,6 +33,7 @@ Standard objects for API, View, Controller. API Definition files can be used to 
       + uzywa skryptow apicra
       + komunikacja z serwerem i zespolem poprzez chat tekstowy, mozliwosc integracji z systemem zarzadzania repozytorium
       
+
 
 ... more info 
 https://blog.devtoolsbox.com/index.php/2018/11/08/nowe-narzedzia-dla-devops-team-apicra-unitapi-vodapi/
