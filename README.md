@@ -1,6 +1,12 @@
 # objects
 Standard objects for API, View, Controller. API Definition files can be used to create stubs in popular languages, like Java, Scala, and Ruby, with just a few clicks.
 
+## Dev Tools 
++ vodAPI.com - describe environment, definition of environment
++ APIcra.com - create scripts to create described environment
++ unitAPI.com - describe units in project, architecture of code, modules
+
+
 
 ## Tools API
 Codegen
@@ -59,6 +65,17 @@ https://github.com/brianschardt/node_graphql_apollo_template
             npm i -g nodemon
 
 ![deployment](https://cdn-images-1.medium.com/max/1600/1*TRAT1glkPpDFhv-GHCFBNQ.jpeg)
+
+REST API NODE MONGO
+https://medium.com/@brianschardt/build-node-mongo-rest-api-2018-jwt-eff0e4f41007
+https://github.com/brianschardt/node_rest_api_mongo
+
+
+REST API NODE MYSQL
+https://medium.com/@brianschardt/best-graphql-node-api-template-for-sql-jwt-2018-5e956b715143
+https://github.com/brianschardt/node_rest_api_mysql
+
+
 
 Building REST APIs with MySQL and Node.js
 - generator
