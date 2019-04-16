@@ -4,15 +4,19 @@ Standard objects for API, View, Controller. API Definition files can be used to 
 ## Definicje produktu, finalne wersje
 
 + Marketing produktu/uslugi
-      + strona www
+
+      + strona www projektu dla klientow, do zakupu, inne adresy stron
+      + logo
       + profile spolecznosciowe
       + oferta
       + metody dystrybucji
       
 + Kod zrodlowy oproduktu/uslugi
+
       + repozytorium
 
 + Dokumentacja wedle ktorej byl tworzony produkt
+
       + repozytorium, wiki, 
       + unitAPI
       
@@ -29,6 +33,7 @@ Standard objects for API, View, Controller. API Definition files can be used to 
             + dla dev, customers, testers, ...
       + jakie stanowiska
       + jakie etapy w realizacji zlecenia
+      + scenariusze, schematy, przyklady realizacji
       
 + APIcra.com - create scripts to create described environment, DevOpsTool
 
