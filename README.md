@@ -30,8 +30,7 @@ Standard objects for API, View, Controller. API Definition files can be used to 
       
 
 ... more info 
-https://blog.devtoolsbox.com/
-
+https://blog.devtoolsbox.com/index.php/2018/11/08/nowe-narzedzia-dla-devops-team-apicra-unitapi-vodapi/
 
 ## Tools API
 Codegen
