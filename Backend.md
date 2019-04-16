@@ -13,18 +13,38 @@
 3. Deployment, proby zmiany, wypracowanie dokumentacji do stworzenia nowej lepszej wersji
 4. Definicje wykonania kolejnych modulow dla Backend, Frontend, DevOps
 
+# ALL
+https://medium.com/the-era-of-apis/20-tutorials-on-how-to-create-your-own-api-sorted-by-programming-language-9ad2fa5fc429
 
 ## Python
+django rest framework
+https://www.django-rest-framework.org/
+
+AZURE
+https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-rest-api
+
+SIMPLY
+https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq
+
+
 django-rest-api
 https://github.com/gitgik/django-rest-api
 
+
+Building beautiful REST APIs using Flask, Swagger UI and Flask-RESTPlus
+http://michal.karzynski.pl/blog/2016/06/19/building-beautiful-restful-apis-using-flask-swagger-ui-flask-restplus/
 
     API input validation
     formatting output (as JSON)
     generating interactive documentation (with Swagger UI)
     turning Python exceptions into machine-readable HTTP responses
 
-http://michal.karzynski.pl/blog/2016/06/19/building-beautiful-restful-apis-using-flask-swagger-ui-flask-restplus/
+Why DRF?
+
+    Authentication – From basic and session-based authentication to token-based and Oauth2 capabilities, DRF is king.
+    Serialization – It supports both ORM and Non-ORM data sources and seemlessly integrates with your database.
+    Great Documentation – If you get stuck somewhere, you can refer to it's vast online documentation and great community support
+    Heroku, Mozilla, Red Hat, and Eventbrite are among the top companies using DRF in their APIs.
 
 
 ## GO
@@ -49,9 +69,17 @@ Building API
 
 CakePHP
 
+laravel
+https://www.toptal.com/laravel/restful-laravel-api-tutorial
+
 
 ## NodeJS
 API SWAGGER CRUD nodejs mysql
+
+Create a single-page web app with REST API backend
+SWAGGERIZE
+https://docs.microsoft.com/en-us/windows/uwp/get-started/get-started-tutorial-fullstack-web-app
+
 
 ### Express App
 Learn Rest API using Express.js and MySQL DB
