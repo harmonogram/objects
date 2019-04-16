@@ -35,7 +35,7 @@ Standard objects for API, View, Controller. API Definition files can be used to 
       + jakie etapy w realizacji zlecenia
       + scenariusze, schematy, przyklady realizacji
       
-Przyklady: 
+Przyklady uzycia: 
       
       + opisywanie uslug firmy jako moduly, gdzie kazdy rodzaj uslugi ma specyfikacje oraz droge sprzedazy i wsparcia
       + standardy komunikacji, okreslenie kazdego dzialania jakie jest w realnym swiecie realizowane w trakcie
@@ -44,6 +44,26 @@ Przyklady:
       + budowanie jak najmniejszych modulow z punktu widzenia efektywnosci sprzedazy i wspolpracy
       + proba utworzenia jak najmniejszych modulow z juz istniejacych
       + tworzenie API w aplikacjach pomagajacych na dostep do danych
+
+Przyklady zapisu dokumentacji:
+
+      project: "Logo"
+      description: "How to create logo"
+      tags: Logo Creating, logo
+
+      resources:      
+      + positions: 
+            +     "Projektant"
+            +     "Grafik"
+      + "money": 200EUR
+      + "estimation": 12days    
+      
+
+      // our main function
+      func main() {
+          router := mux.NewRouter()
+          log.Fatal(http.ListenAndServe(":8000", router))
+      }
       
 + APIcra.com - create scripts to create described environment, DevOpsTool
 
