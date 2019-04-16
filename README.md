@@ -61,15 +61,51 @@ Przyklady zapisu dokumentacji:
       + "money": 200EUR
       + "estimation": 12days    
       
-      Zmienne:
+      
+      variables:
             Money
                   + zaliczka - kwota na poczatku zlecenia
                   + reszta - suma pozostala
                   + dodatkowe - koszty 
-            Dokumentacja
+            Doc
                   + specyfikacja
+                  + poprawki
                   + przedwykonaniem
                   + powykonawcza
+            
+            Produkt
+                  + prototyp
+                  + poprawiony
+                  + finalny
+            Status
+                  + poprawny
+                  + do poprawki
+                  + 
+            Klient, Producent
+                  + Create
+                  + Read
+                  + Valid
+                  + Update
+                
+      
+      process:
+            Klient
+                  Create: Doc.specyfikacja
+            Producent
+                  Read: Doc.specyfikacja
+                  Create: Produkt.prototyp
+            Klient                  
+                  Read: Produkt.prototyp
+                  // result Boolean
+                  if(Valid: Produkt.prototyp)                        
+                        Update: Status.poprawny
+                  else
+                        Create: Doc.poprawki
+                        Update: Status.do_poprawy
+            
+            Producent
+            if(Valid: Produkt.prototyp && Update: Status.poprawny){
+            
       
       // 1 Etap
       Projektant.wykonaj(dokumentacja.specyfikacja, Money.zaliczka) {
