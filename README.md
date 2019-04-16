@@ -11,10 +11,14 @@ Standard objects for API, View, Controller. API Definition files can be used to 
       
 + Kod zrodlowy oproduktu/uslugi
       + repozytorium
+
++ Dokumentacja wedle ktorej byl tworzony produkt
+      + repozytorium, wiki, 
+      + unitAPI
       
 ## Definicje srodowiska, dokumentacja, narzedzia  Dev Tools
 
-+ vodAPI.com - describe environment, definition of environment
++ vodAPI.com - describe environment, definition of environment, zarzadzanie srodowiskiem pozwalajacym na realizacje projektu
 
       + jakie technologie beda uzyte w projekcie ?
       + jakie metody zarzadzania?
@@ -33,8 +37,10 @@ Standard objects for API, View, Controller. API Definition files can be used to 
       + create mysql
       + deploy
       
-+ unitAPI.com - describe units in project, architecture of code, modules
++ unitAPI.com - describe units in project, architecture of code, modules, zarzadzanie tworzeniem nowego kodu
 
+      + zanim zostana zdefiniowane detale konieczne jest stworzenie prototypu, czyli wersji 0.0.1 ...
+      + realizacja kolejnych wersji oprogramowania wraz z dokumentacja na kazdym etapie
       + wytyczne dla tworzenia standardow w aplikacji, dla programistow tworzacych kolejne moduly, 
             np na zamowienie
 
