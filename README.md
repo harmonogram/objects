@@ -58,7 +58,7 @@ Przyklady zapisu dokumentacji:
             + "Grafik"
             + "Konsultant"
             + "Ksiegowa"
-      + "money": 200EUR
+      + "Marketing/Budget/Money": 200EUR
       + "estimation": 12days    
       
       
