@@ -38,7 +38,7 @@ Standard objects for API, View, Controller. API Definition files can be used to 
       + deploy
       
 + unitAPI.com - describe units in project, architecture of code, modules, zarzadzanie tworzeniem nowego kodu
-
+[Backend.md](Backend.md)
       + zanim zostana zdefiniowane detale konieczne jest stworzenie prototypu, czyli wersji 0.0.1 ...
       + realizacja kolejnych wersji oprogramowania wraz z dokumentacja na kazdym etapie
       + wytyczne dla tworzenia standardow w aplikacji, dla programistow tworzacych kolejne moduly, 
