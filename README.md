@@ -26,12 +26,14 @@ Standard objects for API, View, Controller. API Definition files can be used to 
       
 + unitAPI.com - describe units in project, architecture of code, modules
 
-      + wytyczne dla tworzenia standardow w aplikacji, dla programistow tworzacych kolejne moduly, np na zamowienie
+      + wytyczne dla tworzenia standardow w aplikacji, dla programistow tworzacych kolejne moduly, 
+            np na zamowienie
 
 + DevOpsTerminal, DevOpsTool
 
       + uzywa skryptow apicra
-      + komunikacja z serwerem i zespolem poprzez chat tekstowy, mozliwosc integracji z systemem zarzadzania repozytorium
+      + komunikacja z serwerem i zespolem poprzez chat tekstowy, 
+            mozliwosc integracji z systemem zarzadzania repozytorium
       
 
 
