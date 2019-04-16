@@ -37,6 +37,7 @@ https://www.codementor.io/julieisip/learn-rest-api-using-express-js-and-mysql-db
         };
 
 Separated Modules
+- Modularisation
 https://jinalshahblog.wordpress.com/2016/10/06/rest-api-using-node-js-and-mysql/
 https://github.com/jinalshah999/nodejsrestapi
       
@@ -44,6 +45,20 @@ https://github.com/jinalshah999/nodejsrestapi
       app.use('/users', users);
       app.use('/Tasks',Tasks);
       
+      
+Build a Graphql Api for Node & MYSQL 2019— JWT      
+-graphQL
+https://medium.com/@brianschardt/best-graphql-node-api-template-for-sql-jwt-2018-5e956b715143
+https://github.com/brianschardt/node_graphql_apollo_template
+
+            git clone git@github.com:brianschardt/node_graphql_apollo_template.git
+            cd node_graphql_apollo_template
+            npm install
+
+            //install global packages to run application
+            npm i -g nodemon
+
+![deployment](https://cdn-images-1.medium.com/max/1600/1*TRAT1glkPpDFhv-GHCFBNQ.jpeg)
 
 Building REST APIs with MySQL and Node.js
 - generator
