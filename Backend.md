@@ -2,6 +2,7 @@
 1. Wybor odpowiedniej technologii
       + PHP
             + CakePHP
+            
       + NodeJs
       + GrpahQL
       + Typescript
@@ -11,6 +12,27 @@
 2. Stworzenie malych testowych wersji z wlasnym srodowiskiem
 3. Deployment, proby zmiany, wypracowanie dokumentacji do stworzenia nowej lepszej wersji
 4. Definicje wykonania kolejnych modulow dla Backend, Frontend, DevOps
+
+
+## Python
+
+
+## GO
+
+      package main
+
+      import (
+          "encoding/json"
+          "log"
+          "net/http"
+          "github.com/gorilla/mux"
+      )
+
+      // our main function
+      func main() {
+          router := mux.NewRouter()
+          log.Fatal(http.ListenAndServe(":8000", router))
+      }
 
 ## frameworks PHP
 Building API
