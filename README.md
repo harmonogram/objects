@@ -88,7 +88,7 @@ Przyklady zapisu dokumentacji:
                   + Update
                 
       
-      process:
+      Workflow:
             Klient
                   Create: Doc.specyfikacja
             Producent
@@ -112,12 +112,10 @@ Przyklady zapisu dokumentacji:
             dokumentacja // wszystkie informacje dotyczace rozpoczecia i zakonczenia pracy
       }
       
-Przyklad programista
+Przyklad Test-Driven Development (TDD).
+   
 
-
-      Test-Driven Development (TDD).
-
-      This is how it works:
+      Workflow: This is how it works:
 
           Write a test. – The test will flesh out some functionality in your app
           Then, run the test – The test should fail, since there's no code to make it pass.
@@ -127,6 +125,22 @@ Przyklad programista
           Repeat – That's it!
 
 
+W przyszlosci mozna wykorzystac ten zapis do tworzenia kontraktow
+nalezaloby podawac wersje dokumnetacji w oparciu jaka jest robiony projekt
+
+      nanocontract:
+            doc:
+                  how-to-build-software-module: 0.0.1
+                  creating-payment-module: 0.2.1
+            money-estimation:
+                  deposit: 100EUR
+                  finish: 200EUR
+            time-estimation:
+                  prototyping:  10h
+                  preproduction: 20h
+                  production: 20h
+                  postproduction: 5h
+            
 
 + APIcra.com - create scripts to create described environment, DevOpsTool
 
