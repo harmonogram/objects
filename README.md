@@ -20,8 +20,21 @@ API SWAGGER CRUD nodejs mysql
 
 ### Express App
 Learn Rest API using Express.js and MySQL DB
-- easy
+- easy, appModel.js
 https://www.codementor.io/julieisip/learn-rest-api-using-express-js-and-mysql-db-ldflyx8g2
+
+      var todoList = require('../controllers/todoListController');
+
+      // todoList Routes
+      app.route('/tasks')
+        .get(todoList.list_all_tasks)
+        .post(todoList.create_a_task);
+
+       app.route('/tasks/:taskId')
+        .get(todoList.read_a_task)
+        .put(todoList.update_a_task)
+        .delete(todoList.delete_a_task);
+        };
 
 
 Building REST APIs with MySQL and Node.js
