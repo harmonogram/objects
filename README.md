@@ -25,10 +25,13 @@ API SWAGGER CRUD nodejs mysql
     {
         "status": true,  <--- Boolean
         "info": "OK",  <--- String, English LABEL, CONSTANS
-        "input":  {  <--- Data Input, Variables
+        "debug": {[  <--- Debug Data Input, Throw Exceptions, format: [{'process', 'variable', 'message'}]
             ...
-        }
-        "output": {  <--- Data Output, Result
+        ]}
+        "input":  {[  <--- Array Input, Variables
             ...
-        }
+        ]}
+        "output": {[  <--- Array Output, Result
+            ...
+        ]}
     }
