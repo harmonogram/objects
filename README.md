@@ -112,6 +112,22 @@ Przyklady zapisu dokumentacji:
             dokumentacja // wszystkie informacje dotyczace rozpoczecia i zakonczenia pracy
       }
       
+Przyklad programista
+
+
+      Test-Driven Development (TDD).
+
+      This is how it works:
+
+          Write a test. – The test will flesh out some functionality in your app
+          Then, run the test – The test should fail, since there's no code to make it pass.
+          Write the code – To make the test pass
+          Run the test – If it passes, you are confident that the code you've written meets the test requirements
+          Refactor code – Remove duplication, prune large objects and make the code more readable. Re-run the tests every time you refactor the code
+          Repeat – That's it!
+
+
+
 + APIcra.com - create scripts to create described environment, DevOpsTool
 
       + skrypty do uzycia w konsoli
