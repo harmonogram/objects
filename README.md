@@ -36,6 +36,14 @@ https://www.codementor.io/julieisip/learn-rest-api-using-express-js-and-mysql-db
         .delete(todoList.delete_a_task);
         };
 
+Separated Modules
+https://jinalshahblog.wordpress.com/2016/10/06/rest-api-using-node-js-and-mysql/
+https://github.com/jinalshah999/nodejsrestapi
+      
+      app.use('/', routes);
+      app.use('/users', users);
+      app.use('/Tasks',Tasks);
+      
 
 Building REST APIs with MySQL and Node.js
 - generator
