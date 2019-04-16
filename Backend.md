@@ -15,6 +15,16 @@
 
 
 ## Python
+django-rest-api
+https://github.com/gitgik/django-rest-api
+
+
+    API input validation
+    formatting output (as JSON)
+    generating interactive documentation (with Swagger UI)
+    turning Python exceptions into machine-readable HTTP responses
+
+http://michal.karzynski.pl/blog/2016/06/19/building-beautiful-restful-apis-using-flask-swagger-ui-flask-restplus/
 
 
 ## GO
