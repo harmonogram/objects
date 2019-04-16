@@ -34,7 +34,9 @@ Standard objects for API, View, Controller. API Definition files can be used to 
       + jakie stanowiska
       + jakie etapy w realizacji zlecenia
       + scenariusze, schematy, przyklady realizacji
+      
 Przyklady: 
+      
       + opisywanie uslug firmy jako moduly, gdzie kazdy rodzaj uslugi ma specyfikacje oraz droge sprzedazy i wsparcia
       + standardy komunikacji, okreslenie kazdego dzialania jakie jest w realnym swiecie realizowane w trakcie
       + opsywanie tych dzialan kodem w jeyzku python, gdyz potem mozna uzyc te modele do utworzenia modeli do uczenia maszynowego
