@@ -3,9 +3,30 @@ Standard objects for API, View, Controller. API Definition files can be used to 
 
 ## Dev Tools 
 + vodAPI.com - describe environment, definition of environment
-+ APIcra.com - create scripts to create described environment
+      + jakie technologie beda uzyte w projekcie ?
+      + jakie metody zarzadzania?
+      + opis stanowiska pracy dla kazdego uczestnika projektu, jakie opgrogramowanie i sprzet jest potrzebne
+            + gitlab / github / bitbucket ?             
+      + jakie metody komunikacji?
+      + jakie stanowiska
+      + jakie etapy w realizacji zlecenia
+      
++ APIcra.com - create scripts to create described environment, DevOpsTool
+      + skrypty do uzycia w konsoli
+      + install
+      + create mysql
+      + deploy
+      
 + unitAPI.com - describe units in project, architecture of code, modules
+      + wytyczne dla tworzenia standardow w aplikacji, dla programistow tworzacych kolejne moduly, np na zamowienie
 
++ DevOpsTerminal, DevOpsTool
+      + uzywa skryptow apicra
+      + komunikacja z serwerem i zespolem poprzez chat tekstowy, mozliwosc integracji z systemem zarzadzania repozytorium
+      
+
+... more info 
+https://blog.devtoolsbox.com/
 
 
 ## Tools API
