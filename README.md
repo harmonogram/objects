@@ -1,10 +1,19 @@
 # objects
 Standard objects for API, View, Controller. API Definition files can be used to create stubs in popular languages, like Java, Scala, and Ruby, with just a few clicks.
 
-## Dev Tools 
+## Definicje produktu, finalne wersje
 
 + Marketing produktu/uslugi
-+ Kod oproduktu uslugi
+      + strona www
+      + profile spolecznosciowe
+      + oferta
+      + metody dystrybucji
+      
++ Kod zrodlowy oproduktu/uslugi
+      + repozytorium
+      
+## Definicje srodowiska, dokumentacja, narzedzia  Dev Tools
+
 + vodAPI.com - describe environment, definition of environment
 
       + jakie technologie beda uzyte w projekcie ?
