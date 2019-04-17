@@ -23,6 +23,7 @@ Standard objects for API, View, Controller. API Definition files can be used to 
 ## Definicje srodowiska, dokumentacja, narzedzia  Dev Tools
 
 + vodAPI.com - [vodapi.md](vodapi.md)
+
       + describe environment, 
       + definition of environment, 
       + zarzadzanie srodowiskiem pozwalajacym na realizacje projektu
